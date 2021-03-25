@@ -2,7 +2,7 @@
 Task details can be found [here](https://github.com/maxoys45/MousTask)
 
 ## View Project
-Project can be viewed here [here](https://noelledons.github.io/Mous-FE/build/index.html)
+Project can be viewed [here](https://noelledons.github.io/Mous-FE/build/index.html)
 
 ## Tech/ Framework Used
 - JavaScript
