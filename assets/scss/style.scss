@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+@import '_incs/_colors';
+@import '_incs/_reset';
+@import '_incs/_main';
+
+.btn {
+    $color: #438fea;
+    background: $color;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    padding: 1em;
+    transition: all 0.3s;
+    text-transform: uppercase;
+  
+    &:hover {
+      background: darken($color, 10%);
+    }
+  }
+  
+  .staff-list {
+    background: white;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+    row-gap: 1em;
+  
+    @media (max-width: 576px) {
+      grid-template-columns: 100%;
+    }
+  }
+  
+  .staff-member {
+    align-items: center;
+    background: #d5e8ff;
+    border-radius: 30px;
+    box-shadow: 0 0 9px rgb(202, 225, 255);
+    animation: fadein 1s;
+    animation-fill-mode: both;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 1em 0;
+    padding: 1em;
+    transition: all 0.3s;
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  
+    @keyframes fadein {
+      from {
+        opacity: 0%;
+      }
+      to {
+        opacity: 100%;
+      }
+    }
+  }
+  
+  .staff-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.25;
+    padding-left: 1.5em;
+    text-align: start;
+  
+    @media (max-width: 768px) {
+      font-size: 1.2em;
+    }
+  
+    @media (max-width: 576px) {
+      font-size: 1em;
+    }
+  }
+  
+  .staff-image {
+    border-radius: 50%;
+    max-width: 400px;
+    width: 50%;
+  }
