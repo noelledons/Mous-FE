@@ -1,21 +1,18 @@
-# Mous Front End Developer task
+# Mous Task
+Task details can be found [here](https://github.com/maxoys45/MousTask)
 
-## Setup:
-- Clone the repo.
+## View Project
+Project can be viewed here [here]()
+
+## Tech/ Framework Used
+- JavaScript
+- SCSS
+- Gulp.js
+
+## Setup
+- Clone the Mous Task repo.
 - Run `npm install` to install the required dependencies.
-- To run the local environment, run `gulp`.
+- In local environment run `gulp`.
 
-## Task:
-- We would like you to write the JS and CSS to show the staff members when clicking on the button.
-- Some of the code has been written for you but feel free to change it if you feel necessary.
-- The staff data is included as an import, use this to populate the list of staff members.
-- Use ES6 (if you can) and _do not_ use jQuery.
-
-## Bonus points:
-- If you can structure the JS in a way that would emulate how data would be retrieved from a live database (think promises).
-- Matching the syntax that is already there.
-- Using modern techniques to achieve the result.
-
----
-
-Good luck and feel free to get in contact if you have any questions.
+## Issues
+- Issues running Gulp: Gulp does not work well with later versions of Node (version 12 onwards), so  I had to install an older version of Node (v11.15) to run Gulp v3
